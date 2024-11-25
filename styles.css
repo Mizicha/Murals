@@ -1,0 +1,25 @@
+
+div:hover {
+    background-color:#CCFFFF;
+}
+
+img{
+    float: right;
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: 14px;
+}
+
+div{
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    display: flex;
+}
+
+p{
+    margin-left: 20px;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
