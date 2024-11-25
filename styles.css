@@ -8,17 +8,24 @@ img{
     display: block;
     margin-left: 2px;
     max-width: 20vw;
+    max-height: 30vw;
 }
 
 div{
     transition: background 0.3s ease;
     margin-top: 20px;
     display: flex;
+    
 }
 
 p{
-    margin-left: 20px;
-    text-align: justify;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    -webkit-line-clamp: 5;
+	line-clamp: 5;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+    margin-left: 20px;
+    
 }
