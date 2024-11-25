@@ -6,9 +6,8 @@ div:hover {
 img{
     float: right;
     display: block;
-    width: 20%;
-    height: auto;
-    margin-left: 14px;
+    margin-left: 2px;
+    max-width: 20vw;
 }
 
 div{
